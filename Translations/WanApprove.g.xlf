@@ -1,0 +1,344 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="en-US" original="WanApprove">
+    <body>
+      <group id="body">
+        <trans-unit id="Codeunit 904285055 - Method 4250818609 - NamedType 4005917478" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No approval workflow for this record type is enabled.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit WanApprove VBA Approval - Method CheckApprovalWorkflowEnabled - NamedType NoWorkflowEnabledErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 904285055 - Method 1369240716 - NamedType 1801142318" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Send %1 for approval</source>
+          <note from="Developer" annotates="general" priority="2">%1:RecRef.Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit WanApprove VBA Approval - Method OnAddWorkflowEventsToLibrary - NamedType SendForApprovalLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 904285055 - Method 1369240716 - NamedType 3203539708" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cancel %1 for approval</source>
+          <note from="Developer" annotates="general" priority="2">%1:RecRef.Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit WanApprove VBA Approval - Method OnAddWorkflowEventsToLibrary - NamedType CancelForApprovalLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 466006117 - Method 1786712610 - NamedType 1175138943" size-unit="char" translate="yes" xml:space="preserve">
+          <source>This %1 can only be released when the approval process is complete.</source>
+          <note from="Developer" annotates="general" priority="2">%1:VendorBankAccount.TableCaption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit WanApprove VBA Release - Method CheckPendingApproval - NamedType PendingApprovalErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 466006117 - Method 1479096300 - NamedType 3621417922" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The approval process must be cancelled or completed to reopen this %1.</source>
+          <note from="Developer" annotates="general" priority="2">%1:VendorBankAccount.TableCaption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit WanApprove VBA Release - Method PerformManualReopen - NamedType ApprovalStatusErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3901313727 - NamedType 2583525742" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendor Bank Account Approval Workflow</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit WanApprove VBA Setup - NamedType WorkflowDescTxt</note>
+        </trans-unit>
+        <trans-unit id="Page 3624657980 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendor Bank Accounts</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page WanApprove VBA List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3624657980 - Method 1205393478 - NamedType 936923292" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 is missing on %2 line(s).</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page WanApprove VBA List - Method CheckIBAN - NamedType MissingIBAN</note>
+        </trans-unit>
+        <trans-unit id="Page 3624657980 - Control 4248640148 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number used by the bank for the bank account.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page WanApprove VBA List - Control Bank Account No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3624657980 - Control 3004954119 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies a code to identify this vendor bank account.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page WanApprove VBA List - Control Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3624657980 - Control 3993128796 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the name of the bank employee regularly contacted in connection with this bank account.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page WanApprove VBA List - Control Contact - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3624657980 - Control 284764054 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the country/region of the address.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page WanApprove VBA List - Control Country/Region Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3624657980 - Control 4198939294 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the relevant currency code for the bank account.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page WanApprove VBA List - Control Currency Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3624657980 - Control 1807381932 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the fax number associated with the address.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page WanApprove VBA List - Control Fax No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3624657980 - Control 1176583840 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the bank account's international bank account number.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page WanApprove VBA List - Control IBAN - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3624657980 - Control 2273653569 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the language that is used when translating specified text on documents to foreign business partner, such as an item description on an order confirmation.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page WanApprove VBA List - Control Language Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3624657980 - Control 2961552353 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the name of the bank where the vendor has this bank account.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page WanApprove VBA List - Control Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3624657980 - Control 3986423421 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the telephone number of the bank where the vendor has the bank account.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page WanApprove VBA List - Control Phone No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3624657980 - Control 3660300303 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the postal code.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page WanApprove VBA List - Control Post Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3624657980 - Control 428874574 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the SWIFT code (international bank identifier code) of the bank where the vendor has the account.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page WanApprove VBA List - Control SWIFT Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3624657980 - Control 3119688693 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the name of the vendor.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page WanApprove VBA List - Control Vendor Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3624657980 - Control 3119688693 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendor Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page WanApprove VBA List - Control Vendor Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3624657980 - Control 1527594213 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies Vendor No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page WanApprove VBA List - Control Vendor No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3624657980 - Control 3652632787 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the country/region of the vendor.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page WanApprove VBA List - Control VendorCountryRegionCode - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3624657980 - Control 3652632787 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendor Country/region Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page WanApprove VBA List - Control VendorCountryRegionCode - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3624657980 - Control 941731229 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies whether the record is open, waiting to be approved, or released to the next stage of processing.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page WanApprove VBA List - Control wan Approval Status - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3624657980 - Action 3815814879 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Set as Approved</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page WanApprove VBA List - Action SetStatusApproved - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3624657980 - Action 3815814879 - Method 1377591017 - NamedType 3764383116" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Do you want to set %1 to %2 for %3 selected line(s)?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page WanApprove VBA List - Action SetStatusApproved - Method OnAction - NamedType ConfirmLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3584634245 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>WanApprove VBA Install</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report WanApprove VBA Install - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3584634245 - Method 1544076788 - NamedType 3764383116" size-unit="char" translate="yes" xml:space="preserve">
+          <source>WARNING : Do you want to insert WorkflowTemplates and release all Vendor Bank Accounts?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report WanApprove VBA Install - Method OnPreReport - NamedType ConfirmLbl</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 992136122 - Action 3860314472 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 697379313">
+          <source>View a list of the records that are waiting to be approved. For example, you can see who requested the record to be approved, when it was sent, and when it is due to be approved.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension WanApprove VBA Card - Action Approvals - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 992136122 - Action 3860314472 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 697379313">
+          <source>Approvals</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension WanApprove VBA Card - Action Approvals - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 992136122 - Action 2768971232 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 697379313">
+          <source>Release</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension WanApprove VBA Card - Action Action13 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 992136122 - Action 4032263875 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 697379313">
+          <source>Release the %1 to the next stage of processing. You must reopen the %1 before you can make changes to it.</source>
+          <note from="Developer" annotates="general" priority="2">%1:TableCaption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension WanApprove VBA Card - Action Release - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 992136122 - Action 4032263875 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 697379313">
+          <source>Re&amp;lease</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension WanApprove VBA Card - Action Release - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 992136122 - Action 2071937805 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 697379313">
+          <source>Reopen the %1 to change it after it has been approved.</source>
+          <note from="Developer" annotates="general" priority="2">%1:VendorBankAccount.TableCaption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension WanApprove VBA Card - Action Reopen - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 992136122 - Action 2071937805 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 697379313">
+          <source>Re&amp;open</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension WanApprove VBA Card - Action Reopen - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 992136122 - Action 227370865 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 697379313">
+          <source>Approval</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension WanApprove VBA Card - Action Approval - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 992136122 - Action 803889193 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 697379313">
+          <source>Approve the requested changes.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension WanApprove VBA Card - Action Approve - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 992136122 - Action 803889193 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 697379313">
+          <source>Approve</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension WanApprove VBA Card - Action Approve - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 992136122 - Action 2790486453 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 697379313">
+          <source>View or add comments for the record.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension WanApprove VBA Card - Action Comment - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 992136122 - Action 2790486453 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 697379313">
+          <source>Comments</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension WanApprove VBA Card - Action Comment - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 992136122 - Action 1013253961 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 697379313">
+          <source>Delegate the requested changes to the substitute approver.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension WanApprove VBA Card - Action Delegate - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 992136122 - Action 1013253961 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 697379313">
+          <source>Delegate</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension WanApprove VBA Card - Action Delegate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 992136122 - Action 113888489 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 697379313">
+          <source>Reject the approval request.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension WanApprove VBA Card - Action Reject - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 992136122 - Action 113888489 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 697379313">
+          <source>Reject</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension WanApprove VBA Card - Action Reject - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 992136122 - Action 2364670106 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 697379313">
+          <source>Request Approval</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension WanApprove VBA Card - Action Request Approval - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 992136122 - Action 858296388 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 697379313">
+          <source>Cancel the approval request.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension WanApprove VBA Card - Action CancelApprovalRequest - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 992136122 - Action 858296388 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 697379313">
+          <source>Cancel Approval Re&amp;quest</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension WanApprove VBA Card - Action CancelApprovalRequest - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 992136122 - Action 2668096654 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 697379313">
+          <source>Power Automate</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension WanApprove VBA Card - Action Flow - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 992136122 - Action 2424806812 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 697379313">
+          <source>Create a new flow in Power Automate from a list of relevant flow templates.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension WanApprove VBA Card - Action CreateFlowFromTemplate - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 992136122 - Action 2424806812 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 697379313">
+          <source>Create approval flow</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension WanApprove VBA Card - Action CreateFlowFromTemplate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 992136122 - Action 383335270 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 697379313">
+          <source>Request approval of the %1.</source>
+          <note from="Developer" annotates="general" priority="2">%1:VendorBankAccount.TableCaption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension WanApprove VBA Card - Action SendApprovalRequest - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 992136122 - Action 383335270 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 697379313">
+          <source>Send A&amp;pproval Request</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension WanApprove VBA Card - Action SendApprovalRequest - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 992136122 - Action 700150807 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 697379313">
+          <source>Approver</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension WanApprove VBA Card - Action Approver - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 992136122 - Action 3358289018 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 697379313">
+          <source>Release</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension WanApprove VBA Card - Action ReleaseGroup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 992136122 - Action 1733675610 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 697379313">
+          <source>Request Approval</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension WanApprove VBA Card - Action RequestApproval - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 992136122 - Control 513339096 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 697379313">
+          <source>Specifies whether the record is open, waiting to be approved, or released to the next stage of processing.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension WanApprove VBA Card - Control Status - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 529717758 - Field 941731229 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4231435149">
+          <source>Specifie the Status of the vendor bank account.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension WanApprove VBA - Field wan Approval Status - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 529717758 - Field 941731229 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4231435149">
+          <source>Approval Status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension WanApprove VBA - Field wan Approval Status - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1440559434 - EnumValue 2913119229 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Approved</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum WanApprove VBA Status - EnumValue Approved - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1440559434 - EnumValue 4259830144 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum WanApprove VBA Status - EnumValue Open - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1440559434 - EnumValue 3481143665 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Pending</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum WanApprove VBA Status - EnumValue Pending - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1440559434 - EnumValue 496445946 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Rejected</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum WanApprove VBA Status - EnumValue Rejected - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3624657980 - Control 941731229 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3409829539">
+          <source>Specifies whether the record is open, waiting to be approved, or released to the next stage of processing.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension WanApprove VBA List - Control wan Approval Status - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PermissionSet 2895036497 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendor Bank Account Approval</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PermissionSet WANAPPROVE - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PermissionSet 1100786527 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendor Bank Account Approval Setup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PermissionSet WANAPPROVE_VBA_SETUP - Property Caption</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
